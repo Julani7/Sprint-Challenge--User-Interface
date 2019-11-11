@@ -205,3 +205,81 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
 }
+
+.about {
+    padding:20px;
+    border-bottom: 2px dotted black;
+}
+
+.part2 {
+    display:flex;
+    width:100%;
+    padding-top:5%;
+    padding-left:2.5%;
+    /* border-bottom:2px dotted black; */
+}
+
+.plan {
+    border-bottom:1px dotted black;
+    width:45%;
+    margin-right:2.5%;
+}
+
+.working {
+    border-bottom:1px dotted black;
+    width:45%;
+    margin-left:2.5%;
+}
+
+.part3 {
+    display:flex;
+    width:100%;
+    padding-top:5%;
+    padding-left:2.5%;
+}
+
+.office {
+    border-bottom:1px dotted black;
+    width:45%;
+    margin-right:2.5%;
+}
+
+.about-meeting {
+    border-bottom:1px dotted black;
+    width:45%;
+    margin-left:2.5%;
+}
+
+.part4 {
+    padding:20px;
+}
+
+button {
+    border-radius: 25px;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+/* 
+SELF-STUDY QUESTIONS
+
+1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+
+Semantic HTML tells a person, or page crawler that is reading the code what each element represents as infomation on a page.
+
+2. Name two big differences between display: block; and display: inline;.
+
+When an element has display block only that element can take up that horizontal space, inline can exist within a block, to either style or alter a blocks appearance.
+
+3. What are the 4 areas of the box model?
+
+With the box model you have the content, padding, border, and margin.
+
+4. While using flexbox, what axis does the following property work on: align-items: center?
+
+The cross axis/y axis.
+
+5. Explain why git is valuable to a team of developers.
+
+It allows for version control and for a team of people to be able to add to a project at the same time.
+*/
