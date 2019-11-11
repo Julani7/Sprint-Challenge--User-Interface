@@ -82,7 +82,8 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+    padding-top:20px;  
 }
 
 .middle-content {
@@ -110,6 +111,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background:teal;
+}
+
+.middle-content .boxes .box.box2 {
+    background:gold;
+}
+
+.middle-content .boxes .box3 {
+    background:cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background:coral;
+}
+
+.middle-content .boxes .box5 {
+    background:crimson;
+}
+
+.middle-content .boxes .box6 {
+    background:forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background:darkchid;
+}
+
+.middle-content .boxes .box8 {
+    background:hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background:indigo;
+}
+
+.middle-content .boxes .box10 {
+    background:dodgerblue;
 }
 
 .bottom-content {
@@ -142,5 +183,25 @@ footer nav {
 
 footer nav a {
     color: white;
+    text-decoration: none;
+}
+
+header {
+    width:100%;
+    display:flex;
+    padding:20px 20px 40px 20px;
+    align-items:flex-end;
+}
+
+header .logo {
+    padding-right:50px;
+}
+
+header nav ul li {
+    display:inline-block;
+    padding-right: 55px;
+}
+
+header nav ul li a {
     text-decoration: none;
 }
